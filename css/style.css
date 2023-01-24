@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+}
+
+div.container button#btn {
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    outline: none;
+    border: 3px solid #3882F6;
+    background-color: orangered;
+    color: white;
+    font-weight: 700;
+}
+
+

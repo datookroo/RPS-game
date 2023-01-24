@@ -1,0 +1,12 @@
+#cont {
+   width: 250px;
+   margin: 50px auto;
+}
+
+#result {
+   display: none;
+}
+
+#resp {
+   display: none;
+}

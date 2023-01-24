@@ -5,9 +5,11 @@ const body = document.querySelector('body');
 
 const cont = document.querySelector('#cont');
 const cont2 = document.querySelector('#cont2');
-const result = document.querySelector('#result')
+const result = document.querySelector('#result');
 const resp = document.querySelector('#resp');
 const again = document.querySelector('button');
+const select1 = document.querySelector('#select1');
+const select2 = document.querySelector('#select2');
 
 let me = document.querySelector('#me');
 let cpu = document.querySelector('#cpu');
@@ -22,9 +24,10 @@ function selection(){
 
 let attempt = 0;
 
-function game() {
     rock.addEventListener('click', () => {
+        select1.textContent = '-rock selected'
         let select = selection();
+        select2.textContent = "-" + select + " selected";
         if(select == 'paper'){
             cpu.textContent++;
             
@@ -54,6 +57,7 @@ function game() {
             }
         }else if(select == 'scissor'){
             me.textContent++;
+
             
             if(me.textContent == 3) {
                 cont.style.display = 'none';
@@ -81,7 +85,9 @@ function game() {
     })
 
     paper.addEventListener('click', () => {
+        select1.textContent = ' - paper selected'
         let select = selection();
+        select2.textContent = "-" + select + " selected" ;
         if(select == 'scissor'){
             cpu.textContent++;
             
@@ -108,7 +114,7 @@ function game() {
                 }
 
             }
-        }else if(select == rock){
+        }else if(select == 'rock'){
             me.textContent++;
             
             if(me.textContent == 3) {
@@ -137,7 +143,9 @@ function game() {
     })
 
     scissor.addEventListener('click', () => {
+        select1.textContent = 'scissor selected'
         let select = selection();
+        select2.textContent = "-" + select + " selected";
         if(select == 'rock'){
             cpu.textContent++;
             
@@ -190,10 +198,10 @@ function game() {
             }
         }    
     })
-}
 
 
-game()
+
+
 
 
 

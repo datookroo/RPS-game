@@ -7,6 +7,7 @@ const cont = document.querySelector('#cont');
 const cont2 = document.querySelector('#cont2');
 const result = document.querySelector('#result')
 const resp = document.querySelector('#resp');
+const again = document.querySelector('button');
 
 let me = document.querySelector('#me');
 let cpu = document.querySelector('#cpu');
@@ -36,6 +37,7 @@ function game() {
                 if(me.textContent > cpu.textContent){
                     resp.style.display = 'block';
                     resp.textContent = "You Win";
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
@@ -43,6 +45,7 @@ function game() {
                 }else {
                     resp.style.display = 'block'
                     resp.textContent = "You Lose"
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
@@ -61,12 +64,14 @@ function game() {
                 if(me.textContent > cpu.textContent){
                     resp.style.display = 'block';
                     resp.textContent = "You Win";
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
                 }else {
                     resp.style.display = 'block'
                     resp.textContent = "You Lose"
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
@@ -89,12 +94,14 @@ function game() {
                 if(me.textContent > cpu.textContent){
                     resp.style.display = 'block';
                     resp.textContent = "You Win";
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
                 }else {
                     resp.style.display = 'block'
                     resp.textContent = "You Lose"
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
@@ -113,12 +120,14 @@ function game() {
                 if(me.textContent > cpu.textContent){
                     resp.style.display = 'block';
                     resp.textContent = "You Win";
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
                 }else {
                     resp.style.display = 'block'
                     resp.textContent = "You Lose"
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
@@ -141,12 +150,14 @@ function game() {
                 if(me.textContent > cpu.textContent){
                     resp.style.display = 'block';
                     resp.textContent = "You Win";
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
                 }else {
                     resp.style.display = 'block'
                     resp.textContent = "You Lose"
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
@@ -164,12 +175,14 @@ function game() {
                 if(me.textContent > cpu.textContent){
                     resp.style.display = 'block';
                     resp.textContent = "You Win";
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
                 }else {
                     resp.style.display = 'block'
                     resp.textContent = "You Lose"
+                    again.style.display = 'block'
                     body.style.display = 'flex';
                     body.style.justifyContent = 'center';
                     body.style.alignItems = 'center';
